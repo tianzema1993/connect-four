@@ -13,3 +13,5 @@ Connect-four is a two-player connection board game, in which the players choose 
 Who first connects four discs win!!!
 
 <img width="600" height="600" src="image/end.png"/>
+
+Usage : You can play it with a smart AI by downloading the files and Processing.Org
