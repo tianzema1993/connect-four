@@ -1,0 +1,28 @@
+1. Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+
+Yes
+
+2. If so, were you able to accomplish this? Is your computer player as smart as you would like?
+
+Yes
+
+3. How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+
+The basic strategy is determine the 'x' coordinate of where to releasing the disk, because as long as I know the x, I can know the y
+a. Find out legal moves. Legal move means the column whose first row has not been filled
+b. Within all legal moves, if AI can win by a specific move(4 or more than 4 yellow ones are connected). Do it.
+c. Within all legal moves, if player can win next, take up that grid to stop the player.
+d. Since no one can win next, try to avoid the situation: AI put a yellow disk, then player has a possibility to win after that. I defined it as stupid moves, try to find out them. If there are more legal moves than stupid moves, minus stupid moves from legal moves.
+e. Within remain moves, if AI can connect three disks, do it.
+f. Within remain moves, if player can connect three disks, do it.
+g. Within remain moves, if AI can connect two disks, do it.
+h. Within remain moves, if player can connect two disks, do it.
+i. None above, choose a random move.
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+
+It is very hard to beat my computer. In most times I will lose or call it even. Due to the recent situation, no one tested it for me.
+
+How would you improve it in the future?
+
+I may add a strategy after Q3. part c, try to choose moves which have a hope to win. Because if there is no hope to win, connecting three or two disks are meanless. Then I will priorize moves within these movements.
