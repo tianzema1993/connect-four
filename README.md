@@ -8,8 +8,8 @@ Strategy
 
 Connect-four is a two-player connection board game, in which the players choose a color and then take turns dropping colored discs into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column
 
-<img width="600" height="400" src="image/start.png"/>
+<img width="600" height="600" src="image/start.png"/>
 
 Who first connects four discs win!!!
 
-<img width="600" height="400" src="image/end.png"/>
+<img width="600" height="600" src="image/end.png"/>
